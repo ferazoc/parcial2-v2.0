@@ -5,19 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Disney — Landing Demo</title>
 
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
-  <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- NAV -->
   <header class="nav">
     <div class="wrap">
       <div class="logo">
-        <img src="logo.png" alt="Disney" />
+        <img src="images/logo.png" alt="Disney" />
       </div>
       <nav class="menu">
         <a href="#">Disney</a>
@@ -33,91 +30,92 @@
     </div>
   </header>
 
-  <!-- HERO -->
   <section class="hero">
-    <img class="bg" src="banner-background.png" alt="Snow White Banner" />
+    <img class="bg" src="images/banner-background.png" alt="Snow White Banner" />
     <div class="content">
       <div class="panel">
-        <img class="titlemark" src="snow-white.png" alt="Snow White" />
-        <p>Experience Snow White, now playing only in theaters!</p>
-        <div class="cta">
-          <button class="btn btn-primary">Get Tickets Now</button>
-          <button class="btn btn-ghost">Learn More</button>
+        <div class="inner">
+          <img class="titlemark" src="images/snow-white.png" alt="Snow White" />
+          <p>Experience Snow White, now playing only in theaters!</p>
+          <div class="cta">
+            <button class="btn btn-primary">Get Tickets Now</button>
+            <button class="btn btn-ghost">Learn More</button>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FEATURE CARDS -->
   <div class="band">
     <section class="features" id="shop">
       <div class="grid-4">
         <article class="card">
-          <img src="shop-image-1.png" alt="Performance" />
+          <img src="images/shop-image-1.png" alt="Performance" />
           <div class="body">
             <h4>A Special Performance</h4>
             <p>Rachel Zegler performs “Waiting on a Wish” at the Castle that inspired the original Snow White.</p>
           </div>
-          <div class="actions"><a class="btn" href="#">WATCH NOW</a></div>
+          <div class="actions"><a class="link-cta" href="#">WATCH NOW</a></div>
         </article>
 
         <article class="card">
-          <img src="shop-image-2.png" alt="Fairytale Fashion" />
+          <img src="images/shop-image-2.png" alt="Fairytale Fashion" />
           <div class="body">
             <h4>The Art of Fairytale Fashion</h4>
             <p>Legendary Costume Designer Sandy Powell brings fairytale fashion to the new film.</p>
           </div>
-          <div class="actions"><a class="btn" href="#">WATCH NOW</a></div>
+          <div class="actions"><a class="link-cta" href="#">WATCH NOW</a></div>
         </article>
 
         <article class="card">
-          <img src="shop-image-3.png" alt="Disney Store" />
+          <img src="images/shop-image-3.png" alt="Disney Store" />
           <div class="body">
             <h4>Disney Store</h4>
-            <p>NEW Disney's Snow White 11" Limited Edition Doll.</p>
+            <p>NEW Disney's Snow White 11&quot; Limited Edition Doll.</p>
           </div>
-          <div class="actions"><a class="btn" href="#">SHOP NOW</a></div>
+          <div class="actions"><a class="link-cta" href="#">SHOP NOW</a></div>
         </article>
 
         <article class="card">
-          <img src="shop-image-4.png" alt="Music Conversation" />
+          <img src="images/shop-image-4.png" alt="Music Conversation" />
           <div class="body">
-            <h4>A Musical Conversation</h4>
-            <p>Rachel Zegler and the songwriting duo talk about bringing the soundtrack to life.</p>
+            <h4>A Musical Conversation with Pasek and Paul</h4>
+            <p>Rachel Zegler and the songwriting duo reminisce about bringing the soundtrack to life.</p>
           </div>
-          <div class="actions"><a class="btn" href="#">WATCH NOW</a></div>
+          <div class="actions"><a class="link-cta" href="#">WATCH NOW</a></div>
         </article>
       </div>
     </section>
   </div>
 
-  <!-- DISNEY+ STRIP -->
   <section class="strip" id="more">
     <div class="wrap">
       <h3>Explore More Disney+</h3>
       <div class="grid-3">
         <article class="tile">
-          <img src="disney-plus-1.png" alt="Moana 2" />
+          <img src="images/disney-plus-1.png" alt="Moana 2" />
           <div class="text"><small>Available on Disney+</small></div>
+          <div class="cta-note">AVAILABLE ON DISNEY+</div>
         </article>
         <article class="tile">
-          <img src="disney-plus-2.png" alt="Daredevil Born Again" />
+          <img src="images/disney-plus-2.png" alt="Daredevil Born Again" />
           <div class="text"><small>Stream now</small></div>
+          <div class="cta-note">STREAM NOW</div>
         </article>
         <article class="tile">
-          <img src="disney-plus-3.png" alt="Next on Disney+" />
+          <img src="images/disney-plus-3.png" alt="Next on Disney+" />
           <div class="text"><small>What's coming this month</small></div>
+          <div class="cta-note">LEARN MORE</div>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- COMING SOON -->
   <section class="section" id="movies">
     <h3>Coming Soon to Disney+</h3>
     <div class="carousel">
       <article class="poster">
-        <img src="movies-1.jpeg" alt="Alexander and the Terrible, Horrible, No Good, Very Bad..."/>
+        <img src="images/movies-1.jpeg" alt="Alexander and the Terrible, Horrible, No Good, Very Bad..."/>
         <div class="meta">
           <h5>Alexander and the Terrible…</h5>
           <small>Streaming March 28, 2025</small>
@@ -125,7 +123,7 @@
       </article>
 
       <article class="poster">
-        <img src="movies-2.jpeg" alt="Andor Season 2"/>
+        <img src="images/movies-2.jpeg" alt="Andor Season 2"/>
         <div class="meta">
           <h5>Andor Season 2</h5>
           <small>Streaming April 22, 2025</small>
@@ -133,7 +131,7 @@
       </article>
 
       <article class="poster">
-        <img src="movies-3.jpeg" alt="Ironheart"/>
+        <img src="images/movies-3.jpeg" alt="Ironheart"/>
         <div class="meta">
           <h5>Ironheart</h5>
           <small>Streaming June 24, 2025</small>
@@ -141,7 +139,7 @@
       </article>
 
       <article class="poster">
-        <img src="movies-4.jpeg" alt="Percy Jackson and the Olympians Season 2"/>
+        <img src="images/movies-4.jpeg" alt="Percy Jackson and the Olympians Season 2"/>
         <div class="meta">
           <h5>Percy Jackson and The Olympians S2</h5>
           <small>Coming Soon</small>
@@ -149,7 +147,7 @@
       </article>
 
       <article class="poster">
-        <img src="movies-5.jpeg" alt="The Doomies"/>
+        <img src="images/movies-5.jpeg" alt="The Doomies"/>
         <div class="meta">
           <h5>The Doomies</h5>
           <small>Coming Soon</small>
@@ -158,32 +156,32 @@
     </div>
   </section>
 
-  <!-- PARKS -->
   <section class="section" id="parks">
     <h3>Vacation with Disney Parks</h3>
     <div class="parks">
       <article class="park">
-        <img src="disney-parks-1.png" alt="Disneyland Resort" />
+        <img src="images/disney-parks-1.png" alt="Disneyland Resort" />
         <div class="meta">
-          <img src="logo.png" alt="Disneyland" style="height:24px" />
+          <img src="images/logo.png" alt="Disneyland" />
           <p>Save up to 20% on select stays at a Disneyland® Resort Hotel from March 23 to May 15, 2025. Subject to availability and restrictions.</p>
+          <div class="actions"><a class="btn btn-ghost" href="#">Learn More</a></div>
         </div>
       </article>
 
       <article class="park">
-        <img src="disney-parks-2.png" alt="Disneyland Resort" />
+        <img src="images/disney-parks-2.png" alt="Disneyland Resort" />
         <div class="meta">
-          <img src="logo.png" alt="Disneyland" style="height:24px" />
+          <img src="images/logo.png" alt="Disneyland" />
           <p>Book early and save on select stays at a Disneyland® Resort hotel during the Resort 70th Celebration from May 16 to September 26, 2025.</p>
+          <div class="actions"><a class="btn btn-ghost" href="#">Learn More</a></div>
         </div>
       </article>
     </div>
   </section>
 
-  <!-- CREDIT / PROMO -->
   <section class="credit">
     <div class="wrap">
-      <img src="more-background.jpeg" alt="Disney Visa" />
+      <img src="images/more-background.jpeg" alt="Disney Visa" />
       <div>
         <h3>Get more Disney every day</h3>
         <p class="muted">Special offer for Disney® Visa Cardmembers</p>
@@ -191,15 +189,14 @@
           <li>Earn a $450 statement credit.</li>
           <li>Special vacation financing on select Disney vacation packages.</li>
         </ul>
-        <button class="btn btn-brand">Learn More</button>
+        <button class="btn">Learn More</button>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer>
     <div class="foot">
-      <img src="logo.png" alt="Disney" style="height:20px" />
+      <img src="images/logo.png" alt="Disney" />
       <div class="mini">
         <span>Terms of Use</span>
         <span>Privacy Policy</span>
